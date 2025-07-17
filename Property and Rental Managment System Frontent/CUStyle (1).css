@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body {
+    font-family: Inter;
+}
+.Back{
+    width:100%;
+	height: calc(100vh - 60px);
+    background-image: url(./Back2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.menu_bar {
+    background-color: rgba(129, 206, 206, 0.281);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+.menu_bar ul {
+    list-style: none;
+    display: flex;
+}
+
+.menu_bar ul li {
+    padding: 10px 30px;
+    position: relative;
+
+}
+
+.menu_bar ul li a {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 180px;
+    background: rgba(64, 160, 149, 0.932);
+    width: 150px;
+    padding: 11px;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    border-radius: 30px;
+    cursor: pointer;
+    display:inline-block;
+}
+.menu_bar ul li a:hover {
+    background-color: rgba(29, 131, 119, 0.932);
+    transition: all 0.3s;
+}
+
+.comment-box{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    width: 800px;
+
+}
+.comment-box input{
+    width: 100%;
+    height: 60px;
+    padding: 0 20px;
+    margin-bottom:  15px;
+    border-radius: 5px;
+    border: 1px solid #a7d0d3;
+    font-weight: bold;
+    font-size: 15px;
+   
+}
+.comment-box input:focus{
+    border: 1px solid #000;
+    outline: 0;
+}
+.comment-box textarea{
+    width: 100%;
+    height: 250px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 1px solid #a7d0d3 ;
+    font-weight: bold;
+    font-size: 18px;
+}
+.comment-box textarea:focus{
+    border: 1px solid #000;
+    outline: 0;
+}
+.comment-box button
+{
+    border: 0;
+    padding: 15px 40px;
+    background: #27928F;
+    border-radius: 5px;
+    color: aliceblue;
+    font-size: 16px;
+}
+.comment-box button:hover{
+    background-color:cadetblue;
+}
+.Icon{
+    font-size: 35px;
+    color: aliceblue;
+    background-color:#082e2b;
+    position: fixed;
+    left: 50%;
+    bottom: 165px;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+footer{
+    position: relative;
+    bottom: 0;
+    height: 60px;
+    text-align:center;
+    font-size: 18px;
+    padding: 20px 0;
+    color:aliceblue;
+    background-color: #04251e;
+}
